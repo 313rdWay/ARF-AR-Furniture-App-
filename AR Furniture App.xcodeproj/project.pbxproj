@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1EB84C292DB8399F00D4C3E4 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 1EB84C282DB8399F00D4C3E4 /* FocusEntity */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1E5788C92D973211004BD182 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB84C292DB8399F00D4C3E4 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "AR Furniture App";
 			packageProductDependencies = (
+				1EB84C282DB8399F00D4C3E4 /* FocusEntity */,
 			);
 			productName = "AR Furniture App";
 			productReference = 1E5788B82D97320B004BD182 /* AR Furniture App.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 1E5788AF2D97320B004BD182;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1EB84C252DB8376B00D4C3E4 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1E5788B92D97320B004BD182 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EB84C252DB8376B00D4C3E4 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EB84C282DB8399F00D4C3E4 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EB84C252DB8376B00D4C3E4 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E5788B02D97320B004BD182 /* Project object */;
 }
